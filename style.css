@@ -33,6 +33,7 @@ div {
   border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
   /*设置盒元素的计算方式*/
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .checked {
@@ -40,6 +41,7 @@ div {
   height: 40px;
   border: 2px solid #9c998d;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .one {
