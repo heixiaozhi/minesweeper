@@ -1,0 +1,63 @@
+.container {
+  width: 500px;
+  /*解决外边距合并塌陷的问题*/
+  /*overflow: hidden;*/
+}
+
+.grid {
+  width: 400px;
+  height: 400px;
+  /*flex布局*/
+  display: flex;
+  /*flex元素可以换行显示*/
+  flex-wrap: wrap;
+  background-color: #dcd6bc;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 10px solid #dcd6bc;
+}
+
+div {
+  font-size: 25px;
+  font-family: "Roboto Mono", monospace;
+  /*居中文本*/
+  text-align: center;
+}
+
+.bomb, .valid {
+  /*创建10*10的矩形 因此大小为40*/
+  width: 40px;
+  height: 40px;
+  border: 5px solid;
+  border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+  /*设置盒元素的计算方式*/
+  box-sizing: border-box;
+}
+
+.checked {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #9c998d;
+  box-sizing: border-box;
+}
+
+.one {
+  color: blueviolet;
+}
+
+.tow {
+  color: chocolate;
+}
+
+.three {
+  color: cadetblue;
+}
+
+.four {
+  color: lemonchiffon;
+}
+
+.others {
+  color: darkred;
+}
